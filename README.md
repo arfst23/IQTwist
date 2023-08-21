@@ -3,7 +3,7 @@
 [IQ-Twist](https://www.smartgames.eu/de/spiele-f%C3%BCr-einen-spieler/iq-twist)
 is a puzzle game played on an 8x4 grid.  Positions on the grid are flagged with
 colored pegs, e.g.  following exercises in a booklet.  8 tiles, also colored,
-have to be placed on the Grid, so that
+have to be placed on the grid, so that
 - the grid is fully covered
 - if tiles are placed above pegs, their colors must match
 - tiles can only placed above pegs, where tiles have a hole
@@ -11,8 +11,11 @@ have to be placed on the Grid, so that
 
 ## Mathematical Analysis
 
-Without pegs set, the tiles can be arranged in 388288 different permutations
-(placement, rotations, reflections).
+Without pegs set, the tiles can be arranged in 388288 different permutations,
+taking only different placement into consideration,
+i.e. identifying reflectionof tiles, rotation and reflection of the grid,
+6067 fundamental placement classes can ce counted.
+
 
 
 ## Computational Results
